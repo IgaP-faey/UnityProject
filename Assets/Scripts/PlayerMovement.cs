@@ -15,6 +15,6 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         float movex = Input.GetAxis("Horizontal");
-        rb.linearVelocity = new Vector2 (movex*moveSpeed,-3.0f);
+        rb.linearVelocity = new Vector2 (movex*moveSpeed,-2.0f);
     }
 }
